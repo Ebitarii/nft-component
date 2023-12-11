@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    margin-top: 8%;
+}
+
+/* CARD */
+.card{
+    margin: auto;
+    width: 250px;
+    height: 400px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.card>img{
+    width: 220px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.card h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    margin: 0 0 10px 15px;
+}
+.card p{
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    margin: 0 15px 15px 15px;
+}
+
+/* ICONS */
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons p{
+    font-size: 12px;
+}
+.icons-left{
+    font-size: 10px;
+    width: 50%;
+}
+.icons-left img{
+    padding-left: 10px;
+    float: left;
+}
+.icons-left p{
+    padding-left: 15px;
+    color: hsl(178, 100%, 50%);
+}
+.icons-right{
+    font-size: 10px;
+    width: 40%;
+}
+.icons-right img{
+    float: left;
+    padding-right: 10px;
+}
+.icons-right p{
+    color:hsl(215, 51%, 70%);
+}
+
+hr{
+    margin: auto;
+    width: 90%;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    border-bottom:1px solid hsl(215, 51%, 70%);
+}
+
+/* AVATAR */
+
+.avatar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar img{
+   height: 25px;
+   width: 25px;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   margin-bottom: 10px;
+   margin-left: -20px;
+}
+.avatar .first{
+    font-size: 12px;
+}
+.avatar .second{
+    font-size: 12px;
+    color:hsl(0, 0%, 100%);
+    margin-left: -10px; 
+}
+
+/* ATTRIBUTION */
+.attribution {
+    margin-top: 5%;
+    font-size: 12px;
+    text-align: center; 
+    color: hsl(228, 45%, 44%);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+.attribution a:hover{
+    color:hsl(216, 50%, 16%);
+    font-size: 14px;
+} 
